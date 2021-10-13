@@ -1,0 +1,3 @@
+[submodule "Network/WAN/Google-cloud/Run-in-the-cloud-example/Molkar"]
+	path = Network/WAN/Google-cloud/Run-in-the-cloud-example/Molkar
+	url = https://github.com/psilore/molkar.git

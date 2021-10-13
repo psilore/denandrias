@@ -1,4 +1,4 @@
-name: "Deploy Denandrias"
+name: "Denandrias frontend" 
 on: [ push, pull_request ]
 
 jobs:

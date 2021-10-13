@@ -13,7 +13,7 @@ jobs:
   vercel: 
     runs-on: ubuntu-latest
     name: "Deploy front-end"
-    
+    client-payload: '{"message": "Denandrias deployed on vercel!"}'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1

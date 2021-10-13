@@ -14,8 +14,8 @@ jobs:
 
       - name: Build
         run: |
-          yarn install --frozen-lockfile
-          npm run bundle
+          yarn install
+          nuxt generate
 
       - name: Deploy to Stage
         id: deploy-vercel-stage

@@ -33,9 +33,8 @@
 
 ## Run a Node.js app the cloud 
 
-It is just another computer =)
+Every time I hear "cloud", I think of -It is just another computer, somewhere else =)
 
-In this example
 ### Web
 Goto [console.cloud.google.com](console.cloud.google.com) in your browser
 
@@ -45,8 +44,12 @@ Goto [console.cloud.google.com](console.cloud.google.com) in your browser
 
 3. **Skip** `Location` if you have not got any `Organisations`
 
-4. **Enable API** you need to be able to run the project `Molkar` in the cloud
+4. You need to **enable 2 API's** to able to run the project `Molkar` in the cloud.
+   
+   [Direct link to enable Cloud run API page](https://console.cloud.google.com/apis/library/run.googleapis.com)
+   [Direct link to enable Artifact Registry API page](https://console.cloud.google.com/apis/library/artifactregistry.googleapis.com)
 
+5. 
 ### CLI
 In your favorite terminal, I use iTerm on my localhost/computer. 
 Doesn´t matter really, you can even use the cloud shell, [Goto cloud shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=ide%2Cterminal) **Note!** Neeed to be looged into Google cloud console.
@@ -81,7 +84,7 @@ Example: CLI as cloud shell
     "private": true,
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+      "start": "node ./src/index.js"
     },
     "engines": {
       "node": ">= 14.17.3"
@@ -93,4 +96,12 @@ Example: CLI as cloud shell
     }
    }
    ```
+
+4. Create a `Dockerfile`
+
+   ```sh
+   touch Dockerfile
+   ```
+
+5. 
 

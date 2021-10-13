@@ -15,7 +15,7 @@ jobs:
       - name: Build
         run: |
           yarn install
-          nuxt generate
+          npm run generate
 
       - name: Deploy to Stage
         id: deploy-vercel-stage

@@ -1,4 +1,4 @@
-name: "Denandrias frontend" 
+name: "Frontend build" 
 on: [ push, pull_request ]
 
 jobs:
